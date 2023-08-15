@@ -1,18 +1,16 @@
 import '../style/clone.css';
 
-function Clone (){
+function Clone (props){
   return(
     <div className='clone'>
       <img
         className = 'imagen'
-        src={require('C:/Users/Aaron/Desktop/proyecto/clone/src/imagenes/fotoShawn.png')}
+        src={require(`C:/Users/Aaron/Desktop/proyecto/clone/src/imagenes/foto${props.imagen}.png`)}
         alt='foto'/>
          <div className='contenedorTexto'>
-        <p className = 'nombre'>Shawn Wang en Singapur</p>
-        <p className = 'cargo'>Ingeniero de Software en Amazon</p>
-        <p className = 'texto'>"Da miedo cambiar de carrera. Solo gané la confianza de que podía programar 
-          trabajando a través de los cientos de horas de lecciones gratuitas en freeCodeCamp. Dentro de un año 
-          tuve un trabajo de seis cifras como ingeniero de software. freeCodeCamp cambió mi vida."</p>
+        <p className = 'nombre'>{props.nombre} en {props.pais}</p>
+        <p className = 'cargo'>{props.cargo} en {props.empresa}</p>
+        <p className = 'texto'>"{props.testimonio}"</p>
     </div>
     </div>  
   )
