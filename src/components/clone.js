@@ -8,8 +8,8 @@ function Clone (props){
         src={require(`C:/Users/Aaron/Desktop/proyecto/clone/src/imagenes/foto${props.imagen}.png`)}
         alt='foto'/>
          <div className='contenedorTexto'>
-        <p className = 'nombre'>{props.nombre} en {props.pais}</p>
-        <p className = 'cargo'>{props.cargo} en {props.empresa}</p>
+        <p className = 'nombre'><strong>{props.nombre}</strong> en <strong>{props.pais}</strong></p>
+        <p className = 'cargo'><strong>{props.cargo}</strong> en <strong>{props.empresa}</strong></p>
         <p className = 'texto'>"{props.testimonio}"</p>
     </div>
     </div>  

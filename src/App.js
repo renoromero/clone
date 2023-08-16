@@ -14,7 +14,7 @@ function App() {
       imagen='Renato'
       cargo='Técnico em Desenvolvimento de Sistemas'
       empresa='SENAC'
-      testimonio='La programación es mi pasión, desenvolver código é uma das atividades mais fascinantes 
+      testimonio='A programacão é minha pasão, desenvolver código é uma das atividades mais fascinantes 
       que já fiz, quanto mais aprendo, mais me surpreendo com o poder que as ferramentas digitais têm no 
       desenvolvimento do nosso mundo e em como transformamos nossas vidas.'/>
       <Clone
